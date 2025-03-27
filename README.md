@@ -37,9 +37,17 @@ This is a basic *Python Blockchain* implementation that allows adding blocks wit
 
 ## Example Output  
 
-Index: 0, Hash: be1f2e768a057620510f7e1086a59615fb708959ab16edc5a4df275792701a8c, Data: Genesis Block
-Index: 1, Hash: 8f4820d72b31d5285652c5df3254e963679ce8e123f502133547ad5c44fa0496, Data: Transaction 1
-Index: 2, Hash: b6411ebb03102e44295c4baef12dbc10ed5f98a59f746fb817b827f9aed9386b, Data: Transaction 2
+Index: 0, Hash: 00007e5c26b901048386ad8b344a546769b578a2f3db28185e4b23c099ac82d6, Nonce: 29416, Data: Genesis Block
+Index: 1, Hash: 00002e606321b0218e097222d35a191aeeba4931c041b62240edb8af8fc6c4ca, Nonce: 15973, Data: Transaction 1
+Index: 2, Hash: 0000cd51c4d69953de68989efce5bc9f8ac104c0f4b787fcffeb41349d5f74bb, Nonce: 32984, Data: Transaction 2
+
+Initial Blockchain Validation:
+Blockchain is valid.
+Block 1 tampered with! New data: Hacked Data
+
+Blockchain Validation After Tampering:
+Block 1 has been tampered with!
+
 
 ## Future Improvements  
 
